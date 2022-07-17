@@ -29,19 +29,16 @@ h1 {
 }
 
 h5 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 p {
     font-size: 1rem;
 }
 
-.card-title {
-    font-weight: 600;
-}
-
 .card-text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 1rem;
 }
 
@@ -85,7 +82,9 @@ p {
     align-items: center;
 }
 
-
+.img44 {
+    filter: drop-shadow(15px, 15px, 15px, #2e2e2e);
+}
 
 /**--- 3. Header ---**/
 
@@ -120,7 +119,7 @@ nav {
 
 .active-link a {
     font-weight: 700;
-    color: #252B33;
+    color: #e300a7;
 }
 
 .nav-link {
