@@ -1,0 +1,221 @@
+/*=======================================*/
+
+/*			 Table of contents           */
+
+/*=======================================*/
+
+/*
+1. Typography
+2. Common content setting 
+3. Header
+4. Footer
+5. Index page
+6. Adjustment other pages
+7. Media query
+
+
+
+/**--- 1. Typography ---**/
+
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    background: #e9edef;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.secondary {
+    font-size: 1rem;
+    color: #686868;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+
+/**--- 2. Common content setting ---**/
+
+.content {
+    max-width: 95%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.p-10 {
+    padding: 10%;
+}
+
+.card-body {
+    align-items: center;
+}
+
+
+
+/**--- 3. Header ---**/
+
+nav {
+    background: unset;
+}
+
+.navbar {
+    background: #e9edef;
+    opacity: 80%;
+    padding: 5px;
+    height: 100vh;
+    max-width: 400px;
+}
+
+.navbar-dis li {
+    margin: 15px 10px;
+    white-space: nowrap;
+}
+
+.nav-item a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #515963;
+    
+}
+
+.nav-item a:hover, a:active {
+    font-weight: 700;
+    color: rgb(239, 254, 101);
+}
+
+.active-link a {
+    font-weight: 700;
+    color: #252B33;
+}
+
+.nav-link {
+    color: white;
+}
+
+.sub li a {
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    padding: 0;
+}
+
+
+/**--- 4. Main ---**/
+
+.main-span {
+    color: #e300a7;
+}
+
+.circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#shape-1, #shape-2 {
+    min-width: 350px;
+    height: 350px;
+    mix-blend-mode: multiply;
+}
+
+#shape-1 {
+    background-color: rgb(196, 253, 251);
+    left: 600px;
+    top: 80px;
+    filter: blur(30px);
+}
+
+#shape-2 {
+    border: 5px solid rgb(226, 158, 210);
+    left: 370px;
+    top: 80px;
+    filter: blur(12px);
+}
+
+#shape-3 {
+    border: 1px solid rgb(254, 159, 49);
+    min-width: 140px;
+    height: 140px;
+    mix-blend-mode: multiply;
+    left: 600px;
+    top: 60px;
+    filter: blur(3px);
+}
+
+#shape-4 {
+    border: 1px solid rgb(49, 117, 254);
+    min-width: 450px;
+    height: 450px;
+    mix-blend-mode: multiply;
+    left: 500px;
+    top: 90px;
+    filter: blur(3px);
+}
+
+
+#featured-img {
+    z-index: 10;
+    margin-top: -50px;
+    opacity: 100%;
+}
+
+.scale-up-center {
+    animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+        transform: translate(30px, -50px) scale(1.1);
+    }
+    60% {
+        transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+        transform: translate(0px, 0px) scale(1);
+    }
+}
+
+.animation-delay-2000 {
+    animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+    animation-delay: 4s;
+}
