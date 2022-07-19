@@ -87,6 +87,8 @@ p {
     align-items: center;
 }
 
+
+
 /**--- 3. Header ---**/
 
 nav {
@@ -135,6 +137,7 @@ nav {
 }
 
 
+
 /**--- 4. Main ---**/
 
 .main-span {
@@ -153,7 +156,7 @@ nav {
 }
 
 #shape-1 {
-    background-color: rgb(196, 253, 251);
+    background-color: rgb(195, 222, 251);
     left: 48vw;
     top: 40vh;
     filter: blur(30px);
@@ -219,3 +222,20 @@ nav {
 .animation-delay-4000 {
     animation-delay: 4s;
 }
+
+
+
+/**--- 5. UX UI page ---**/
+.uxui-main {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/**--- 6. Media query ---**/
+
+/* @media screen and (max-width: 1250px) {
+    f.nav-item a {
+        font-size: 0.9rem;
+    }
+} */
