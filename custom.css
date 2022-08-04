@@ -22,6 +22,7 @@ body {
     font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
     background: #e9edef;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -106,6 +107,86 @@ nav {
     height: 100vh;
     max-width: 400px;
 }
+
+.spin-letters {
+    font-size: 2rem;
+    text-indent: 8px;
+    margin: 0;
+    margin-bottom: 3rem; 
+    padding: 0;
+}
+
+.letter-esign {
+    color: #ba00a0;
+    font-weight: 500;
+    display: block;
+    padding: 0;
+}
+
+.letter-d {
+    color: #029de4;
+    font-weight: 700;
+    padding: 0;
+}
+
+.horizontalFlip {
+    padding: 0;
+}
+
+.horizontalFlip span {
+    display: block;
+    padding: -12px;
+    animation: horizontal 10s linear infinite;
+	-ms-animation: horizontal 20s linear infinite   ;
+	-webkit-animation: horizontal 20s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 10s;
+	overflow: hidden;
+	position: absolute;
+}
+
+/* .horizontalFlip span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+} */
+
+/*Horizontal Flip Animation*/
+@keyframes horizontal{
+    0% { transform: rotateX(0deg);}
+    10% {transform: rotateX(360deg);}
+	20% { transform: rotateX(0deg);}
+    25% {transform: rotateX(360deg);}
+    27.5% { transform: rotateX(0deg);}
+    29.2% {transform: rotateX(360deg);}
+    30% {transform: rotateX(0deg);}
+    30.4% {transform: rotateX(360deg);}
+    30.6% {transform: rotateX(0deg);}
+    30.7% {transform: rotateX(360deg);}
+    30.8% {transform: rotateX(0deg);}
+    30.9% {transform: rotateX(360deg);}
+    31% {transform: rotateX(0deg);}
+    31.1% {transform: rotateX(360deg);}
+    31.2% {transform: rotateX(0deg);}
+    31.3% {transform: rotateX(360deg);}
+    31.4% {transform: rotateX(0deg);}
+    31.6% {transform: rotateX(360deg);}
+    32% {transform: rotateX(0deg);}
+    32.8% {transform: rotateX(360deg);}
+    34.5% {transform: rotateX(0deg);}
+    37% {transform: rotateX(360deg);}
+    42% {transform: rotateX(0deg);}
+    52% {transform: rotateX(360deg);}
+    65% {transform: rotateX(0deg);}
+}
+
+@keyframes letter-d {
+    0%, 80% {
+        transform: rotateX(360deg);
+    }
+}
+
 
 .navbar-dis li {
     margin: 15px 10px;
